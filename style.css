@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none;}
+table{margin:auto}
+td{width: 38px;height: 38px;line-height: 28px;border: 1px solid grey;text-align: center;font-size: 14px;background-color: #f4faff;}
+td.bgRed{background-color: red;}
+td.bgGray{background-color: gray;}
+button{position: absolute;padding: 20px;font-size: 20px;/* display: none */;}
+button#up	{top:20px; left:500px;}
+button#left	{top:100px;left:420px;}
+button#down	{top:180px;left:500px;}
+button#right{top:100px;left:580px;}

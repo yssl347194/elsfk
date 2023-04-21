@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>elsfk</title>
+	<script src="iconlist.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<table id="table"></table>
+	<button id="up">   旋转</button>
+	<button id="left"> 向左</button>
+	<button id="down"> 向下</button>
+	<button id="right">向右</button>
+	
+<script>
+	var allData = [20,11];	//	数据面板
+	var iconIndex = 0;		//	icon图形序号
+	var icon;				//	全局图形
+	var isGameOver = false;	//	是否游戏结束
+	var timer = null;		//	向下走定时器
+</script>
+<script src="functions_events.js"></script>
+</body>
+</html>
